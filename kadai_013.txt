@@ -1,0 +1,4 @@
+def price_tax(price):
+  price_a=price*1.1
+  return price_a
+price_tax(100)
