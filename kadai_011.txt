@@ -1,0 +1,22 @@
+array = ["水","金","地","火","木","土","天","海","冥"]
+
+
+#for
+for n in range(0,2):
+  for i in array:
+    print(i)
+
+
+
+##while
+i=0
+b=0
+
+while i !=18:
+ if i <9:
+  print(array[i])
+ else:
+  b=int(i-9)
+  print(array[b])
+ i=i+1
+    
