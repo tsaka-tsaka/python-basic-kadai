@@ -7,8 +7,7 @@ array=['月曜日は晴れです。',
        '日曜日は雷雨です'
        ]
 
-for index, value in enumerate(array):
-  print(f"{index}{value}")
+print(array[2])
 
 dictionary={
     'mon':'晴れ',
@@ -22,5 +21,4 @@ dictionary={
 
 
 
-for key, value in dictionary.items():
-  print(f"{key}{value}")
+print(dictionnary['wed'])
