@@ -4,3 +4,6 @@ class Human:
     self.age=age
   def printinfo(self):
     print(self.name, self.age)
+
+samurai=Human('samurai',25)
+samurai.printinfo()
