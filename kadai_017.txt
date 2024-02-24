@@ -1,0 +1,15 @@
+class Human:
+  def __init__(self,name,age):
+    self.name=name
+    self.age=age
+  def check_age(self):
+    if self.age >=20:
+      print(self.name+'は大人です')
+    else:
+      print(self.name+'は大人ではありません')
+
+samurai=Human('samurai',25)
+hanako=Human('hanako',12)
+
+samurai.check_age()
+hanako.check_age()
