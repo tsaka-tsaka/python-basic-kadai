@@ -1,4 +1,4 @@
-def price_tax(price):
-  price_a=price*1.1
+def price_tax(price, tax):
+  price_a=price*(1+tax/100)
   return price_a
-price_tax(100)
+price_tax(100, 10)
