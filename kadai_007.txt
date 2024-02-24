@@ -21,4 +21,4 @@ dictionary={
 
 
 
-print(dictionnary['wed'])
+print(dictionary['wed'])
